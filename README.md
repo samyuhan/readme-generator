@@ -25,8 +25,7 @@ MIT License - A short and simple permissive license with conditions only requiri
 ## Contribution
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 ## Testing
-test
+N/A
 ## Questions
 - Github: [samyuhan](https://github.com/samyuhan)
 - Email: syuhan@berkeley.edu
-## Application Functioning
