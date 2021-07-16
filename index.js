@@ -4,7 +4,7 @@ const fs = require('fs');
 
 function generate(data) {
     return `# ${data.title}
-![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
+![license](https://img.shields.io/badge/license-${data.license}-blue)(https://shields.io)
 ## Table of Contents 
 - [Description](#description)
 - [Installation](#installation)
