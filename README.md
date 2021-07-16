@@ -1,5 +1,4 @@
-# readme
-    ## Licensing
+# test
     [![license](https://img.shields.io/badge/license--blue)](https://shields.io)
     ## Table of Contents 
     - [Description](#description)
@@ -9,17 +8,17 @@
     - [Testing](#testing)
     - [Questions](#questions)
     ## Description
-    this is a homework assigment
+    test
     ## Installation
-    install inquirer
+    test
     ## Usage
-    to make professional readmes
+    test
     ## License
     
     ## Contribution
-    nothing
+    test
     ## Testing
-    na
+    test
     ## Questions
     - Github: [samyuhan](https://github.com/samyuhan)
     - Email: syuhan@berkeley.edu
