@@ -4,29 +4,29 @@ const fs = require('fs');
 
 function generate(data) {
     return `# ${data.title}
-    [![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
-    ## Table of Contents 
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contribution](#contribution)
-    - [Testing](#testing)
-    - [Questions](#questions)
-    ## Description
-    ${data.description}
-    ## Installation
-    ${data.installation}
-    ## Usage
-    ${data.usage}
-    ## License
-    ${data.license}
-    ## Contribution
-    ${data.contribution}
-    ## Testing
-    ${data.test}
-    ## Questions
-    - Github: [${data.github}](https://github.com/${data.github})
-    - Email: ${data.email}`;
+![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
+## Table of Contents 
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Testing](#testing)
+- [Questions](#questions)
+## Description
+${data.description}
+## Installation
+${data.installation}
+## Usage
+${data.usage}
+## License
+${data.license}
+## Contribution
+${data.contribution}
+## Testing
+${data.test}
+## Questions
+- Github: [${data.github}](https://github.com/${data.github})
+- Email: ${data.email}`;
   }
 
 // TODO: Create an array of questions for user input
