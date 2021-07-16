@@ -5,7 +5,7 @@ import * as fs from "fs";
 function generate(data) {
     return `# ${data.title}
     ## Licensing
-    [![license](https://img.shields.io/badge/license-${data.licensing}-blue)](https://shields.io)
+    [![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
     ## Table of Contents 
     - [Description](#description)
     - [Installation](#installation)
@@ -20,7 +20,7 @@ function generate(data) {
     ## Usage
     ${data.usage}
     ## License
-    ${data.licensing}
+    ${data.license}
     ## Contribution
     ${data.contribution}
     ## Testing
@@ -61,6 +61,12 @@ const questions = [
         type: "input",
         name: "test",
         message: "What are the instructions for testing this project?"
+    },
+    {
+        type: 'checkbox',
+        name: 'license',
+        message: 'Which license is the application covered under?',
+        choices: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public', 'Common-Development-and Distribution', 'None']
     },
     {
         type: "input",
