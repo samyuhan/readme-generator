@@ -1,10 +1,9 @@
 // TODO: Include packages needed for this application
-import inquirer from "inquirer";
-import * as fs from "fs";
+const inquirer = require('inquirer');
+const fs = require('fs');
 
 function generate(data) {
     return `# ${data.title}
-    ## Licensing
     [![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
     ## Table of Contents 
     - [Description](#description)
@@ -83,7 +82,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
+    
 }
 
 // TODO: Create a function to initialize app
